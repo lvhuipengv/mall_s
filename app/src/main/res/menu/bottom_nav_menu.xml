@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/selector_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_special"
+        android:icon="@drawable/selector_special"
+        android:title="@string/title_special" />
+    <item
+        android:id="@+id/navigation_classfiy"
+        android:icon="@drawable/selector_classfiy"
+        android:title="@string/title_classfiy" />
+    <item
+        android:id="@+id/navigation_trolley"
+        android:icon="@drawable/selector_trolley"
+        android:title="@string/title_trolley" />
+
+
+    <item
+        android:id="@+id/navigation_own"
+        android:icon="@drawable/selector_own"
+        android:title="@string/title_own" />
+
+</menu>

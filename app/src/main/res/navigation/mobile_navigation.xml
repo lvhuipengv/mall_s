@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.mall_s.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_special"
+        android:name="com.example.mall_s.ui.special.SpecialFragment"
+        android:label="@string/title_special"
+        tools:layout="@layout/fragment_special" />
+
+    <fragment
+        android:id="@+id/navigation_classfiy"
+        android:name="com.example.mall_s.ui.classfiy.ClassfiyFragment"
+        android:label="@string/title_classfiy"
+        tools:layout="@layout/fragment_classfiy" />
+    <fragment
+        android:id="@+id/navigation_trolley"
+        android:name="com.example.mall_s.ui.trolley.TrolleyFragment"
+        android:label="@string/title_trolley"
+        tools:layout="@layout/fragment_trolley" />
+    <fragment
+        android:id="@+id/navigation_own"
+        android:name="com.example.mall_s.ui.own.OwnFragment"
+        android:label="@string/title_own"
+        tools:layout="@layout/fragment_own" />
+</navigation>
